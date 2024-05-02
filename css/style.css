@@ -1,15 +1,15 @@
 html{
-    font-size: 22px;
-    background-color: rgb(255, 254, 254);
+    background-color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
     h2,h3{
         text-decoration: underline;
     }
 }
 
-header{
-    font-size: 40px;
+header h1{
+    color: rosybrown;
+    font-size: 77px;
     font-weight: bold;
-    color: black;
     text-align: center;
     margin-top: 0;
 }
@@ -22,34 +22,38 @@ header{
     background-color: antiquewhite;
     scroll-behavior: smooth;
 }
-.sidebar header{
-    font-size: 22px;
-    color: white;
-    text-align: center;
-    line-height: 70px;
-    background-color: darkolivegreen;
-    user-select: none;
+nav ul{
+    font-size: 30px;
+    list-style: none;
+    text-decoration: wavy;
 }
-.sidebar ul{
-    display: block;
-    height: 100%;
-    line-height: 65px;
-    font-size: 20px;
-    color: white;
-    padding-left: 40px;
-    box-sizing: border-box;
-    transition: .5s;
+nav li{
+    margin: 15px;
+    padding: 17px;
+}
+
+nav a{
+    color: aqua;
+}
+
+nav a:hover{
+    color: darkcyan;
+    font-size: 35px;
+    transition: 5ms;
+    
 }
 
 .container{
-    max-width: 1000px;
+    font-size: 22px;
+    max-width: 70rem;
     margin: auto;
     margin-left: 15em;
 }
 
 #top{
-    display: flex;
-    flex-direction: row;
+    background-color: blanchedalmond;
+    display : flex;
+    flex-direction : row;
     img{
         border: 2.5px;
         border-color: black;
@@ -57,10 +61,11 @@ header{
     }
     p{
         font-size: 60px;
-        justify-content:center;
+        justify-content: center;
         padding-left:2.5%;
-    }   
-}
+    }  
+} 
+
 
 #projects{
     a{
